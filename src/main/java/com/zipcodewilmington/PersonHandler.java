@@ -55,14 +55,11 @@ public class PersonHandler {
     public String forEachLoop() {
         String result = "";
         // identify array's type
-        // identify array's variable-name
-
-        // use the above discoveries to declare for-each-loop signature
-            // begin loop
-                // get `string Representation` of `currentPerson`
-                // append `stringRepresentation` to `result` variable
+        // identify array's variable-go` to `result` variable
             // end loop
-
+        for(Person i : personArray){
+            result += i.toString();
+        }
         return result;
     }
 
